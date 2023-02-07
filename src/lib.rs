@@ -1,6 +1,6 @@
 //! # Linked List
 //!
-//! `linked_list` crate implements a singly linked list
+//! `singly_linked_list` crate implements a singly linked list
 
 
 use std::rc::Rc;
@@ -22,7 +22,7 @@ impl<T: Clone> List<T> {
     /// # Example:
     ///
     /// ```
-    /// use linked_list::List;
+    /// use singly_linked_list::List;
     ///
     /// let mut list: List<u32> = List::new();
     /// assert_eq!(list.traverse(), Vec::new())
@@ -40,7 +40,7 @@ impl<T: Clone> List<T> {
     /// # Example
     ///
     /// ```
-    /// use linked_list::List;
+    /// use singly_linked_list::List;
     ///
     /// let mut list: List<char> = List::new();
     /// list.add_item('a');
@@ -71,7 +71,7 @@ impl<T: Clone> List<T> {
     /// # Example
     ///
     /// ```
-    /// use linked_list::List;
+    /// use singly_linked_list::List;
     ///
     /// let mut list: List<f32> = List::new();
     /// list.add_item(2.3);
